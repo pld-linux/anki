@@ -1,4 +1,4 @@
-Summary:	SuperMemo(tm)-like program 
+Summary:	SuperMemo(tm)-like program
 Summary(pl.UTF-8):	Program podobny do SuperMemo
 Name:		anki
 Version:	0.9.9.8.6
@@ -8,13 +8,18 @@ Group:		Applications
 Source0:	http://anki.googlecode.com/files/%{name}-%{version}.tgz
 # Source0-md5:	744f7057cc43be7cc076e1fcb2719e4c
 URL:		http://ichi2.net/anki/
+BuildRequires:	python-PyQt4
+BuildRequires:	python-SQLAlchemy
+BuildRequires:	python-devel
+BuildRequires:	python-distribute
+BuildRequires:	python-sqlite
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq	python-modules
 Requires:	python-BeautifulSoup
+Requires:	python-PyQt4
 Requires:	python-SQLAlchemy
 Requires:	python-simplejson
-Requires:	python-PyQt4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
