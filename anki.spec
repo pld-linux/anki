@@ -1,12 +1,12 @@
 Summary:	SuperMemo(tm)-like program
 Summary(pl.UTF-8):	Program podobny do SuperMemo
 Name:		anki
-Version:	1.2.8
+Version:	1.2.9
 Release:	1
 License:	GPL v3+
 Group:		Applications
 Source0:	http://anki.googlecode.com/files/%{name}-%{version}.tgz
-# Source0-md5:	0dc5f5bad979f57cab82e3757665f6c0
+# Source0-md5:	3b32c40c589565ebd5b349f8e0d36967
 URL:		http://ichi2.net/anki/
 BuildRequires:	python-PyQt4
 BuildRequires:	python-SQLAlchemy
