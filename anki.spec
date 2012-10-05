@@ -4,7 +4,7 @@ Summary:	SuperMemo(tm)-like program
 Summary(pl.UTF-8):	Program podobny do SuperMemo
 Name:		anki
 Version:	2.0
-Release:	0.%{pre}.0.2
+Release:	0.%{pre}.1
 License:	GPL v3+
 Group:		Applications
 Source0:	http://ankisrs.net/download/mirror/%{name}-%{version}-%{pre}.tgz
