@@ -1,14 +1,13 @@
 # TODO - post?
-%define		pre	rc6
 Summary:	SuperMemo(tm)-like program
 Summary(pl.UTF-8):	Program podobny do SuperMemo
 Name:		anki
-Version:	2.0
-Release:	0.%{pre}.1
+Version:	2.0.3
+Release:	1
 License:	GPL v3+
 Group:		Applications
-Source0:	http://ankisrs.net/download/mirror/%{name}-%{version}-%{pre}.tgz
-# Source0-md5:	ab77dc8fb1a2435771677743282bc4ab
+Source0:	http://ankisrs.net/download/mirror/%{name}-%{version}.tgz
+# Source0-md5:	72791110c382e1dc65e944eaac51a2a0
 URL:		http://ankisrs.net/
 BuildRequires:	python-PyQt4
 BuildRequires:	python-SQLAlchemy
